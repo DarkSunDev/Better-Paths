@@ -1,0 +1,6 @@
+{
+    "variants":
+	{
+        "": { "model": "betterpaths:block/stone_path_block" }
+    }
+}

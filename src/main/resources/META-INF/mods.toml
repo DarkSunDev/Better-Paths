@@ -1,0 +1,27 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[24,)" #mandatory (24 is current forge version)
+[[mods]] #mandatory
+modId="betterpaths" #mandatory
+version="0.3_0" #mandatory
+displayName="Better Paths" #mandatory
+authors="Reid Willis" #optional
+
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Adds paths that you travel faster along. Totally not exploitable
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.betterpaths]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[25,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.betterpaths]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.13.2]"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,8 @@
+{
+    "parent": "block/carpet",
+    "textures":
+	{
+		"particle": "betterpaths:block/stone_path_block",
+        "wool": "betterpaths:block/stone_path_block"
+    }
+}
